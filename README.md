@@ -17,7 +17,7 @@ To run this weather app, follow the steps below:
 1. **Download or Clone the Repository:**
     - Clone the repository:
       ```sh
-      git clone <repository-url>
+      git clone https://github.com/amarjyotipatra/weather-app.git
       ```
     - Or download the ZIP file and extract it.
 
