@@ -1,6 +1,11 @@
 const url = 'https://api.openweathermap.org/data/2.5/weather';
 const apiKey = 'f00c38e0279b7bc85480c3fe775d518c';
 
+document.getElementById('city-input-btn').addEventListener('click', () => {
+    const cityName = document.getElementById('city-input').value;
+    weatherFn(cityName);
+});
+
 async function weatherFn(cName) {
     const temp = `${url}?q=${cName}&appid=${apiKey}&units=metric`;
     try {
